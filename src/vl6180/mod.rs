@@ -15,4 +15,4 @@ pub mod sysrange;
 pub use sysrange::SysRangeAddress;
 
 pub mod system;
-pub use system::SystemAddress;
+pub use system::{SystemAddress, SystemReset};

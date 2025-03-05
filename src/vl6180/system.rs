@@ -1,4 +1,5 @@
 
+///enum for system addresses
 pub enum SystemAddress {
     SystemModeGpio0 = 0x010,
     SystemModeGpio1 = 0x011,
@@ -9,7 +10,8 @@ pub enum SystemAddress {
     SystemGroupedParameterHold = 0x017,
 }
 
-pub enum Reset {
+///enum to reset system gpios
+pub enum SystemReset {
     ResetGpio0 = 0x60,
     ResetGpio1 = 0x20
 }
