@@ -2,9 +2,6 @@
 pub mod vl6180;
 pub use vl6180::Vl6180;
 
-pub mod error;
-pub use error::Vl6180Error;
-
 pub mod identification;
 pub use identification::IdentificationAddress;
 
@@ -16,3 +13,6 @@ pub use sysrange::SysRangeAddress;
 
 pub mod system;
 pub use system::{SystemAddress, SystemReset};
+
+pub mod accuracy;
+pub use accuracy::MeasurementAccuracy;
